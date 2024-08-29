@@ -1,0 +1,127 @@
+# vsim -c tb_top_packet_generator -voptargs="+acc=voptargs" -do "run -all" 
+# Start time: 12:58:46 on Aug 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_top_packet_generator(fast)
+# Loading work.top_module(fast)
+# Loading work.control_unit(fast)
+# Loading work.packet_generator(fast)
+# run -all
+# Packet 1100100111000 
+# Packet 0011000101100 
+# Packet 0001111110001 
+# Packet 0110111111001 
+# Packet 1010100100001 
+# Packet 1011100001100 
+# Packet 0100010011110 
+# Packet 1111000111100 
+# Packet 0000100111101 
+# Packet 1011010100101 
+# Packet 0100100110010 
+# Packet 1000111000010 
+# Packet 1101000101001 
+# Packet 0101010010001 
+# Packet 0101111101010 
+# Packet 1010011100011 
+# Packet 0111011111101 
+# Packet 0110001110001 
+# Packet 0110000110001 
+# Packet 0001111000010 
+# Packet 1011000011011 
+# Packet 0011110000011 
+# Packet 1001110010010 
+# Packet 1101110101101 
+# Packet 1011111000001 
+# Packet 0100001111111 
+# Packet 1001011111010 
+# Packet 0010111000101 
+# Packet 1111111111001 
+# Packet 0110100010011 
+# Packet 0110101011011 
+# Packet 0000011111010 
+# Packet 0010101011111 
+# Packet 0101000111100 
+# Packet 1000001001010 
+# Packet 0110000000001 
+# Packet 1110010111101 
+# Packet 1110010000011 
+# Packet 0100011110011 
+# Packet 0010101011001 
+# Packet 1000100011110 
+# Packet 1110101101011 
+# Packet 0001101100001 
+# Packet 0101101010100 
+# Packet 1101110100101 
+# Packet 0111111110000 
+# Packet 0000011110000 
+# Packet 0100010110010 
+# Packet 1101010101010 
+# Packet 0101101011110 
+# Packet 1000000011011 
+# Packet 0010011000111 
+# Packet 1110100000001 
+# Packet 1010100010101 
+# Packet 0100100101010 
+# Packet 0101010101011 
+# Packet 0111001110000 
+# Packet 0100101111000 
+# Packet 0111101110100 
+# Packet 0110001110010 
+# Packet 1111000110101 
+# Packet 0001011001001 
+# Packet 0011100110110 
+# Packet 0100101110110 
+# Packet 1111000000100 
+# Packet 1110010001111 
+# Packet 1101001101101 
+# Packet 0011110110111 
+# Packet 0010100010011 
+# Packet 0111101000001 
+# Packet 0111011010010 
+# Packet 0001010110001 
+# Packet 0001001111100 
+# Packet 1100000000111 
+# Packet 1110011011110 
+# Packet 0011110111000 
+# Packet 0100010001100 
+# Packet 0001110001101 
+# Packet 1001111110010 
+# Packet 0010001001100 
+# Packet 0010101000110 
+# Packet 1000011000110 
+# Packet 1100000110001 
+# Packet 0111101100100 
+# Packet 1111100110000 
+# Packet 0000101001001 
+# Packet 1000110100100 
+# Packet 0110001110010 
+# Packet 0100010010000 
+# Packet 0000010101000 
+# Packet 1000100110110 
+# Packet 0101000001100 
+# Packet 0000000001011 
+# Packet 1101110101110 
+# Packet 0110001001001 
+# Packet 0010110111110 
+# Packet 1110011111100 
+# Packet 1100001101101 
+# Packet 0111111000101 
+# Packet 0010111101001 
+# ** Note: $finish    : test_bench.sv(106)
+#    Time: 3005 ns  Iteration: 1  Instance: /tb_top_packet_generator
+# End time: 12:58:51 on Aug 29,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0

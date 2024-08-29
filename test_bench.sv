@@ -1,13 +1,13 @@
 /*
 ============================================================================
  * Filename:    test_bench.sv
- * Description: Testbench for the unit testing of packet generator
+ * Description: Testbench for whole test
  * Author:      Hira Firdous
  * Date:        29/08/2024
  ===========================================================================
 */
 
-module tb_top_packet_generator;
+module tb_testbench;
 
     logic         clk;
     logic         rst;
@@ -17,7 +17,7 @@ module tb_top_packet_generator;
     logic         src_ready;                             
     logic         dd_valid;        
     
-    // initialting both
+    // Instantiate the top module with packet generator
     top_modulePG dut (
         .clk         (clk),   
         .rst         (rst),   
@@ -28,13 +28,7 @@ module tb_top_packet_generator;
         .packet      (packet)
     );
 
-    NOC_TOP_Module uut(
-     .clk         (clk),   
-     .rst         (rst), 
-     .packet      (packet),
-     .valid       (dd_valid),
-     .ready       (dd_ready),
-);
+    
 
     // Clock generation
     initial begin
